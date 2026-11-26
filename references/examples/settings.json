@@ -1,0 +1,19 @@
+{
+  "principal_color": "#2563EB",
+  "secondary_color": "#111827",
+  "custom_color": [
+    { "name": "Ink", "hex": "#111827" },
+    { "name": "Muted", "hex": "#4B5563" },
+    { "name": "Line", "hex": "#E5E7EB" },
+    { "name": "Soft background", "hex": "#F9FAFB" }
+  ],
+  "available_fonts": { "Inter": "Inter", "Poppins": "Poppins" },
+  "heading_font": "Poppins",
+  "general_font": "Inter",
+  "container_width": 1200,
+  "viewport_tablet": 959,
+  "viewport_mobile": 767,
+  "use_editor": "full_html",
+  "use_in_ctype": { "page": "page" },
+  "use_in_btypes": { "noahs_block_html": "noahs_block_html" }
+}

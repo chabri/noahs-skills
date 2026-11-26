@@ -1,0 +1,16 @@
+{
+  "name": "noahs-skills",
+  "description": "Claude Code skills for Noah's Page Builder for Drupal.",
+  "owner": {
+    "name": "Noah's Page Builder",
+    "url": "https://noahs-creator.com"
+  },
+  "plugins": [
+    {
+      "name": "noahs",
+      "source": "./",
+      "description": "Build Drupal sites and pages with Noah's Page Builder (free and Pro).",
+      "category": "development"
+    }
+  ]
+}

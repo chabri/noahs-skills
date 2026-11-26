@@ -1,0 +1,32 @@
+{
+  "type": "noahs_settings",
+  "element": {
+    "css": {
+      "desktop": {
+        "default": {
+          "body": { "font_family": "Inter", "font_weight": "400", "font_size": "16px", "line_height": "1.6", "color": "#111827" },
+          "body_background_color": "#FFFFFF",
+          "font_h1": { "font_family": "Poppins", "font_weight": "700", "font_size": "56px", "line_height": "1.1", "color": "#111827" },
+          "font_h2": { "font_family": "Poppins", "font_weight": "700", "font_size": "40px", "line_height": "1.2", "color": "#111827" },
+          "font_h3": { "font_family": "Poppins", "font_weight": "600", "font_size": "24px", "line_height": "1.3", "color": "#111827" },
+          "font_h4": { "font_family": "Poppins", "font_weight": "600", "font_size": "20px" },
+          "font_h5": { "font_family": "Poppins", "font_weight": "600", "font_size": "16px" },
+          "button_background_color": "#2563EB",
+          "button_font": { "font_family": "Inter", "font_weight": "600", "font_size": "16px", "color": "#FFFFFF" },
+          "button_padding": { "padding_top": "12px", "padding_right": "28px", "padding_bottom": "12px", "padding_left": "28px" },
+          "button_radius": { "border_top_left_radius": "999px", "border_top_right_radius": "999px", "border_bottom_right_radius": "999px", "border_bottom_left_radius": "999px" },
+          "button_border": { "border_color": "#2563EB", "border_style": "solid", "border_top_width": "2px", "border_right_width": "2px", "border_bottom_width": "2px", "border_left_width": "2px" },
+          "forms_input_border": { "border_color": "#E5E7EB", "border_style": "solid", "border_top_width": "1px", "border_right_width": "1px", "border_bottom_width": "1px", "border_left_width": "1px" },
+          "forms_input_radius": { "border_top_left_radius": "10px", "border_top_right_radius": "10px", "border_bottom_right_radius": "10px", "border_bottom_left_radius": "10px" },
+          "forms_input_padding": { "padding_top": "10px", "padding_right": "14px", "padding_bottom": "10px", "padding_left": "14px" }
+        },
+        "hover": {
+          "button_background_color": "#1D4ED8",
+          "button_border": { "border_color": "#1D4ED8" }
+        }
+      },
+      "tablet": { "default": { "font_h1": { "font_size": "44px" }, "font_h2": { "font_size": "32px" } } },
+      "mobile": { "default": { "font_h1": { "font_size": "36px" }, "font_h2": { "font_size": "28px" } } }
+    }
+  }
+}

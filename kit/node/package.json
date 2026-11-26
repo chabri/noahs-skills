@@ -1,0 +1,10 @@
+{
+  "name": "noahs-build-kit",
+  "private": true,
+  "description": "Runs Noah's Page Builder's own serializer and CSS generator outside the browser (jsdom).",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jsdom": "^24.1.0"
+  }
+}
