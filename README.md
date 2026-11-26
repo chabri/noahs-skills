@@ -54,6 +54,32 @@ Skills can also be uploaded as zip files where your Claude plan supports custom 
 `dist/`). Note that these skills run drush and Node commands, so they are most useful where Claude has a shell on the
 machine that runs your Drupal site, i.e. Claude Code.
 
+### Other AI coding agents (GitHub Copilot, Codex, Cursor)
+
+`SKILL.md` follows the open [Agent Skills](https://agentskills.io) format, so agents that can run commands in your
+project can use these skills too. They do not have `/plugin`, so install the self-contained zips by hand:
+
+1. Download `noahs-skills-all.zip` from the [latest release](https://github.com/chabri/noahs-skills/releases/latest)
+   (or build it with `scripts/build-skill-zips.sh`, output in `dist/`).
+2. Unzip it into the skills folder of your tool, in your Drupal project root:
+
+| Tool | Skills folder |
+|---|---|
+| GitHub Copilot (VS Code agent mode, Copilot CLI, coding agent) | `.github/skills/` |
+| OpenAI Codex CLI | `.agents/skills/` |
+| Cursor and others | see your tool's docs for its Agent Skills folder |
+
+```bash
+mkdir -p .github/skills && unzip noahs-skills-all.zip -d .github/skills/
+```
+
+3. Ask in agent mode, e.g. *"Build a landing page with Noah's for a coffee shop"*. In each standalone skill,
+   "this skill folder" means the folder that contains its `SKILL.md`.
+
+Chat-only apps (ChatGPT, claude.ai, Copilot Chat on the web) can read the skills but cannot run drush on your site,
+so use an agent with a terminal. Folder names change between tool versions: check your tool's docs if a skill is not
+picked up.
+
 ## Example prompts
 
 - "Build a site for a small coffee roastery with Noahs: home, shop, blog, about and contact. Use my DDEV project."
